@@ -28,7 +28,7 @@ También hay que tener en cuenta que el proyecto subido en este repositorio incl
 
 Para ejecutar la página, carga el archivo `index.html` que está en la carpeta raíz. Se desplegará el _landing_ de bienvenida y el botón para acceder al resto de contenidos. 
 
-##### Código externo
+#### Código externo
 
 Esta web cuenta con código externo para la función del reproductor de música. El código está tomado [de este tutorial en la web www.script-tutorials.com ](https://www.script-tutorials.com/html5-audio-player-with-playlist/). Se encuentra separado en un archivo .js independiente y acotado en la hoja de CSS.
 
