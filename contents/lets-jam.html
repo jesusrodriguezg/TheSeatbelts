@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>The Seatbelts | Let's jam!</title>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+	<script type="text/javascript" src="../js/player.js"></script>
+	<script type="text/javascript" src="../js/slider.js"></script>
+	<script type="text/javascript" src="../js/jquery-ui-1.8.21.custom.min.js"></script>
+	<link rel="stylesheet" type="text/css" href="../styles/styles.css">
+</head>
+<body>
+	<div class="wrapper">
+		<header class="header">
+			<a href="historia.html"><img src="../images/seatbelts-logo-header.png"></a>
+		</header>
+		<nav class="menu">
+			<ul>
+				<li>El grupo
+					<ul>
+						<a href="historia.html"><li>Historia</li></a>
+						<a href="yoko-kanno.html"><li>Yoko Kanno</li></a>
+					</ul>
+				</li>
+				<li>Discografía
+					<ul>
+						<a href="cowboy-bebop.html"><li>Cowboy Bebop</li></a>
+						<a href="lets-jam.html"><li><em>Let's jam!</em></li></a>
+					</ul>
+				</li>
+				<li>Revisiones
+					<ul>
+						<a href="referencias.html"><li>Referencias</li></a>
+						<a href="music-for-freelance.html"><li>Music for freelance</li></a>
+					</ul>
+				</li>
+				<li>Souvenir from Tokyo
+					<ul>
+						<a href="video.html"><li>Vídeos</li></a>
+					</ul>
+				</li>
+			</ul>
+		</nav>
+		<section class="main">
+			<h1>3, 2, 1... let's jam!</h1>
+			<p class="single">Como siempre en la vida, las palabras están muy bien, pero lo mejor es cuando pasamos a la acción. Es hora de degustar una selección de los mejores temas de The Seabtelts. Pon el volumen bien alto y dale al play hasta que bailen todos los vecinos de tu bloque. Como dicen los propios Seatbelts, <i>let's jam!</i>.</p>
+
+			<!--reproductor por defecto-->
+			<div>
+			<audio id="simple-audio" controls>
+				<source src="../media/tank.mp3" type="audio/mpeg">
+				</audio>
+			</div>
+			<!--reproductor con js-->
+			<div class="example">
+				<div class="player">
+					<div class="pl"></div>
+					<div class="title"></div>
+					<div class="artist"></div>
+					<div class="cover"></div>
+					<div class="controls">
+						<div class="play"></div>
+						<div class="pause"></div>
+						<div class="rew"></div>
+						<div class="fwd"></div>
+					</div>
+					<div class="volume"></div>
+					<div class="tracker"></div>
+				</div>
+				<ul class="playlist hidden">
+					<li audiourl="tank.mp3" cover="cb.jpg" artist="The Seatbelts">Tank!</li>
+					<li audiourl="askdna.mp3" cover="askdna.jpg" artist="The Seatbelts">Ask DNA</li>
+					<li audiourl="avemaria.mp3" cover="blue.jpg" artist="The Seatbelts">Ave Maria</li>
+					<li audiourl="blue.mp3" cover="blue.jpg" artist="The Seatbelts">Blue</li>
+					<li audiourl="bother.mp3" cover="nodisc.jpg" artist="The Seatbelts">Don't bother none</li>
+					<li audiourl="cool.mp3" cover="nodisc.jpg" artist="The Seatbelts">You make me cool</li>
+					<li audiourl="gateway.mp3" cover="nodisc.jpg" artist="The Seatbelts">Gateway</li>
+					<li audiourl="pushing.mp3" cover="future-blues.jpg" artist="The Seatbelts">Pushing the sky</li>
+					<li audiourl="realfolk.mp3" cover="vitamineless.jpg" artist="The Seatbelts">The real folk blues</li>
+					<li audiourl="rush.mp3" cover="cb.jpg" artist="The Seatbelts">Rush</li>
+					<li audiourl="timetoknow.mp3" cover="future-blues.jpg" artist="The Seatbelts">Time to know ~ be waltz</li>
+					<li audiourl="waltzforzizi.mp3" cover="cb.jpg" artist="The Seatbelts">Waltz for Zizi</li>
+					<li audiourl="whatplanet.mp3" cover="future-blues.jpg" artist="The Seatbelts">What planet is this?!</li>
+				</ul>
+			</div>
+		</section>
+		<footer class="footer">
+			<div class="flip-box">
+				<div class="flip-box-inner">
+					<div class="flip-box-front">
+						<img src="../images/fcb-spike.jpg">		
+					</div>
+					<div class="flip-box-back">
+						<a href="http://jesusrodriguez.info/" target="_blank"><img src="../images/design.png"></a>		
+					</div>
+				</div>
+			</div>
+			<div class="flip-box">
+				<div class="flip-box-inner">
+					<div class="flip-box-front">
+						<img src="../images/fcb-faye.jpg">	
+					</div>
+					<div class="flip-box-back">
+						<a href="https://twitter.com/trisco" target="_blank"><img src="../images/twitter.png"></a>		
+					</div>
+				</div>
+			</div>
+			<div class="flip-box">
+				<div class="flip-box-inner">
+					<div class="flip-box-front">
+						<img src="../images/fcb-jet.jpg">
+					</div>
+					<div class="flip-box-back">
+						<a href="https://facebook.com/jesusrodriguez.gonz" target="_blank"><img src="../images/facebook.png"></a>		
+					</div>
+				</div>
+			</div>
+			<div class="flip-box">
+				<div class="flip-box-inner">
+					<div class="flip-box-front">
+						<img src="../images/fcb-ed.jpg">		
+					</div>
+					<div class="flip-box-back">
+						<a href="https://github.com/jesusrodriguezg" target="_blank"><img src="../images/github.png"></a>
+					</div>
+				</div>
+			</div>
+		</footer>
+	</div>
+</body>
+</html>
